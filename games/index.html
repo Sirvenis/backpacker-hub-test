@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0c0d14">
+  <title>Toolbox Arcade — Original browser games</title>
+  <meta name="description" content="Original browser games and playful mini-games for the Toolbox club.">
+  <link rel="stylesheet" href="../styles.css?v=1">
+  <link rel="stylesheet" href="./games.css?v=3">
+</head>
+<body class="arcade-body">
+  <div class="arcade-shell">
+    <aside class="arcade-sidebar" aria-label="Arcade categories">
+      <a class="arcade-logo" href="../index.html" aria-label="Back to Toolbox home">
+        <span class="arcade-logo-mark">▣</span>
+        <span>Toolbox<br><strong>Arcade</strong></span>
+      </a>
+      <nav class="arcade-side-nav">
+        <button class="side-chip active" data-filter="all">🏠 <span>Home</span></button>
+        <button class="side-chip" data-filter="quick">⚡ <span>5-minute</span></button>
+        <button class="side-chip" data-filter="arcade">🕹️ <span>Arcade</span></button>
+        <button class="side-chip" data-filter="puzzle">🧩 <span>Puzzle</span></button>
+        <button class="side-chip" data-filter="word">🔤 <span>Word</span></button>
+        <button class="side-chip" data-filter="mystery">🕵️ <span>Mystery</span></button>
+        <button class="side-chip" data-filter="classic">🎲 <span>Classics</span></button>
+        <button class="side-chip" data-filter="coming">🚧 <span>Coming soon</span></button>
+      </nav>
+    </aside>
+
+    <main class="arcade-main">
+      <header class="arcade-topbar">
+        <a class="back-link" href="../index.html">← Toolbox</a>
+        <label class="arcade-search">
+          <span>Search</span>
+          <input id="gameSearch" type="search" placeholder="Search games, tags, categories..." autocomplete="off">
+        </label>
+        <div class="topbar-actions" aria-label="Arcade status">
+          <span class="status-pill live">9 playable</span>
+          <span class="status-pill">Original games</span>
+        </div>
+      </header>
+
+      <section class="arcade-collections" aria-label="Quick collections">
+        <button class="collection-card" data-filter="puzzle"><strong>Train your brain</strong><span>Puzzles & logic</span></button>
+        <button class="collection-card" data-filter="arcade"><strong>Quick reflex</strong><span>Arcade bursts</span></button>
+        <button class="collection-card" data-filter="mystery"><strong>Mystery corner</strong><span>Clues & rooms</span></button>
+        <button class="collection-card" data-filter="quick"><strong>5-minute fun</strong><span>Short breaks</span></button>
+        <button class="collection-card" data-filter="classic"><strong>Classic inspired</strong><span>Safe original spins</span></button>
+      </section>
+
+      <section class="arcade-hero-section">
+        <div class="section-title-row">
+          <div>
+            <p class="arcade-eyebrow">TOP PICKS</p>
+            <h1>Play original browser games from the Toolbox club.</h1>
+          </div>
+          <p class="arcade-note">Inspired by modern game portals, not copied. Every game uses our own names, UI, rules presentation, and assets.</p>
+        </div>
+
+        <div class="hero-grid">
+          <a class="game-card hero-card art-coin" href="./coin-courier/" data-title="Coin Courier" data-tags="arcade quick phaser coin dodge">
+            <span class="badge hot">Phaser test</span>
+            <span class="game-art-icon">🛻</span>
+            <span class="game-title">Coin Courier</span>
+            <span class="game-meta">Collect coins, dodge hazards</span>
+          </a>
+          <a class="game-card hero-card art-3d-study" href="./blackwood-3d-study/" data-title="Blackwood 3D Study" data-tags="mystery godot 3d study clue room">
+            <span class="badge original">Godot 3D</span>
+            <span class="game-art-icon">🏚️</span>
+            <span class="game-title">Blackwood 3D Study</span>
+            <span class="game-meta">Orbit a 3D clue room</span>
+          </a>
+          <a class="game-card stacked-card art-ladder" href="./ladder-dash.html" data-title="Ladder Dash" data-tags="classic quick dice board ladder">
+            <span class="badge top">Classic inspired</span>
+            <span class="game-title">Ladder Dash</span>
+            <span class="game-meta">Roll, climb, slide</span>
+          </a>
+          <a class="game-card stacked-card art-word" href="./word-sprout.html" data-title="Word Sprout" data-tags="word puzzle quick letters">
+            <span class="badge updated">Word puzzle</span>
+            <span class="game-title">Word Sprout</span>
+            <span class="game-meta">Build a score from letters</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="game-row-section" data-row="playable">
+        <div class="row-heading">
+          <h2>Play now</h2>
+          <span>Original games already live</span>
+        </div>
+        <div class="game-row">
+          <a class="game-card small-card art-coin" href="./coin-courier/" data-title="Coin Courier" data-tags="arcade quick phaser coin dodge"><span class="badge hot">Hot</span><span class="game-title">Coin Courier</span><span class="game-meta">Phaser arcade</span></a>
+          <a class="game-card small-card art-blackwood" href="./blackwood-clue-hunt/" data-title="Blackwood Clue Hunt" data-tags="mystery godot adventure clue story"><span class="badge original">Original</span><span class="game-title">Blackwood Clue Hunt</span><span class="game-meta">Godot mystery</span></a>
+          <a class="game-card small-card art-ladder" href="./ladder-dash.html" data-title="Ladder Dash" data-tags="classic quick dice board ladder"><span class="badge top">Top</span><span class="game-title">Ladder Dash</span><span class="game-meta">Dice race</span></a>
+          <a class="game-card small-card art-word" href="./word-sprout.html" data-title="Word Sprout" data-tags="word puzzle quick letters"><span class="badge updated">Updated</span><span class="game-title">Word Sprout</span><span class="game-meta">Letter scoring</span></a>
+          <a class="game-card small-card art-snake" href="./pocket-snake.html" data-title="Pocket Snake" data-tags="arcade quick snake classic"><span class="badge hot">Arcade</span><span class="game-title">Pocket Snake</span><span class="game-meta">Pocket reflex game</span></a>
+          <a class="game-card small-card art-blocks" href="./block-dock/" data-title="Block Dock" data-tags="puzzle quick phaser blocks logic"><span class="badge hot">New</span><span class="game-title">Block Dock</span><span class="game-meta">Block puzzle</span></a>
+          <a class="game-card small-card art-hidden" href="./blackwood-hidden-case/" data-title="Blackwood Hidden Case" data-tags="mystery hidden object phaser cozy clue"><span class="badge original">Hidden object</span><span class="game-title">Blackwood Hidden Case</span><span class="game-meta">Find objects in the study</span></a>
+          <a class="game-card small-card art-3d-study" href="./blackwood-3d-study/" data-title="Blackwood 3D Study" data-tags="mystery godot 3d study clue room"><span class="badge original">Godot 3D</span><span class="game-title">Blackwood 3D Study</span><span class="game-meta">3D mystery prototype</span></a>
+        </div>
+      </section>
+
+      <section class="game-row-section" data-row="next">
+        <div class="row-heading">
+          <h2>Next games to build</h2>
+          <span>Planned original games for the portal</span>
+        </div>
+        <div class="game-row coming-row">
+          <article class="game-card small-card art-truck" data-title="Roadside Rush" data-tags="arcade driving truck coming"><span class="badge soon">Planned</span><span class="game-title">Roadside Rush</span><span class="game-meta">Truck break arcade</span></article>
+          <article class="game-card small-card art-farm" data-title="Farm Shift Idle" data-tags="idle backpacker farm coming"><span class="badge soon">Planned</span><span class="game-title">Farm Shift Idle</span><span class="game-meta">Backpacker idle loop</span></article>
+          <article class="game-card small-card art-case" data-title="Case File Cafe" data-tags="mystery story coming"><span class="badge soon">Godot lane</span><span class="game-title">Case File Cafe</span><span class="game-meta">Short mystery episode</span></article>
+          <article class="game-card small-card art-chess" data-title="Checkmate Trainer" data-tags="classic chess puzzle coming"><span class="badge soon">Safe classic</span><span class="game-title">Checkmate Trainer</span><span class="game-meta">Chess puzzles, original UI</span></article>
+        </div>
+      </section>
+
+      <section class="arcade-quality-panel">
+        <div>
+          <p class="arcade-eyebrow">QUALITY ROADMAP</p>
+          <h2>How we reach better game quality</h2>
+          <p>Use Phaser for fast, lightweight arcade/puzzle games. Use Godot for richer story and mystery games. Use original thumbnails and small polish passes instead of copying anyone’s game art.</p>
+        </div>
+        <ul>
+          <li><strong>Portal first:</strong> strong layout, search, categories, game rows.</li>
+          <li><strong>Polish next:</strong> better thumbnails, sound, animations, mobile feel.</li>
+          <li><strong>Game depth later:</strong> daily puzzles, saves, leaderboards, member extras.</li>
+        </ul>
+      </section>
+
+      <p id="emptyState" class="empty-state" hidden>No matching games yet. Try “arcade”, “mystery”, “word”, or “classic”.</p>
+    </main>
+  </div>
+
+  <script src="./games.js?v=1"></script>
+</body>
+</html>

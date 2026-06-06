@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Toolbox icon">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#16a34a"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#f6f8f4"/>
+  <rect x="76" y="126" width="360" height="286" rx="58" fill="url(#g)"/>
+  <rect x="154" y="92" width="158" height="72" rx="30" fill="#10201c"/>
+  <rect x="186" y="118" width="94" height="26" rx="13" fill="#f6f8f4" opacity="0.92"/>
+  <path d="M132 232h240M132 302h240" stroke="#f6f8f4" stroke-width="34" stroke-linecap="round" opacity="0.95"/>
+  <circle cx="370" cy="370" r="58" fill="#10201c"/>
+  <path d="M346 370l17 18 36-43" fill="none" stroke="#ecfdf5" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

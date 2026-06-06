@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#100d14">
+  <title>Blackwood Hidden Case — Toolbox Arcade</title>
+  <meta name="description" content="A cozy hidden-object mystery prototype set in Blackwood Manor.">
+  <link rel="stylesheet" href="./styles.css?v=1">
+</head>
+<body>
+  <main class="case-shell">
+    <header class="topbar">
+      <a class="back-link" href="../">← Arcade</a>
+      <div>
+        <p class="eyebrow">BLACKWOOD MANOR</p>
+        <h1>Hidden Case</h1>
+      </div>
+      <button id="newCaseBtn" class="ghost-btn">New case</button>
+    </header>
+
+    <section class="briefing">
+      <div>
+        <p class="tagline">Search Lord Blackwood’s study for eight objects before the trail goes cold.</p>
+        <div class="stats-row">
+          <span>Found <strong id="foundCount">0/8</strong></span>
+          <span>Hints <strong id="hintCount">3</strong></span>
+          <span>Best <strong id="bestTime">—</strong></span>
+        </div>
+      </div>
+      <p id="message" class="message">Find the first object from the case list.</p>
+    </section>
+
+    <section class="case-layout">
+      <div id="game" class="scene-canvas" aria-label="Hidden object scene"></div>
+      <aside class="case-panel">
+        <h2>Case list</h2>
+        <ul id="objectList" class="object-list"></ul>
+        <div class="case-actions">
+          <button id="hintBtn" class="primary-btn">Use hint</button>
+        </div>
+        <p class="note">Cozy prototype: no timer pressure, no penalties. Objects are original SVG/Phaser shapes with fair hitboxes.</p>
+      </aside>
+    </section>
+  </main>
+
+  <script src="./vendor/phaser/phaser.min.js"></script>
+  <script src="./src/rules.js?v=1"></script>
+  <script src="./src/game.js?v=1"></script>
+</body>
+</html>

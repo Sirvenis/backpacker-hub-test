@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ladder Dash — Toolbox Games</title>
+  <link rel="stylesheet" href="../styles.css?v=1">
+  <link rel="stylesheet" href="./games.css?v=1">
+</head>
+<body>
+<header class="site-header"><nav class="nav"><a class="brand" href="./index.html"><span class="brand-mark">⇧</span><span><strong>Ladder Dash</strong><small>Original dice race</small></span></a><div class="nav-links"><a href="./index.html">Games</a><a href="../index.html">Toolbox</a></div></nav></header>
+<main class="game-wrap">
+  <section class="game-panel">
+    <div class="game-top">
+      <div><p class="eyebrow">ROLL-AND-RACE</p><h1>Ladder Dash</h1><p>Race to square 64. Green climbs help you. Red slides send you back.</p></div>
+      <div class="game-stats"><span class="stat-pill">Square <span id="pos">1</span></span><span class="stat-pill">Rolls <span id="rolls">0</span></span><span class="stat-pill">Best <span id="best">—</span></span></div>
+    </div>
+    <div class="game-actions"><button class="button primary" id="rollBtn">Roll dice</button><button class="button ghost" id="newBtn">New round</button></div>
+    <p class="game-message" id="msg">Tap roll to start.</p>
+    <div class="board-grid" id="board" aria-label="Ladder Dash board"></div>
+  </section>
+</main>
+<script src="./ladder-dash.js?v=1"></script>
+</body>
+</html>

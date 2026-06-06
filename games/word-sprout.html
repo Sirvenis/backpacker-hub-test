@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Word Sprout — Toolbox Games</title>
+  <link rel="stylesheet" href="../styles.css?v=1">
+  <link rel="stylesheet" href="./games.css?v=1">
+</head>
+<body>
+<header class="site-header"><nav class="nav"><a class="brand" href="./index.html"><span class="brand-mark">W</span><span><strong>Word Sprout</strong><small>Original word tile game</small></span></a><div class="nav-links"><a href="./index.html">Games</a><a href="../index.html">Toolbox</a></div></nav></header>
+<main class="game-wrap">
+  <section class="game-panel">
+    <div class="game-top">
+      <div><p class="eyebrow">WORD PUZZLE</p><h1>Word Sprout</h1><p>Use the letter tray to grow the highest-scoring word. This is an original word toy, not Scrabble.</p></div>
+      <div class="game-stats"><span class="stat-pill">Score <span id="score">0</span></span><span class="stat-pill">Best <span id="best">0</span></span></div>
+    </div>
+    <div class="word-tray" id="tray"></div>
+    <input class="word-input" id="word" placeholder="Type a word from the tray" autocomplete="off">
+    <div class="game-actions"><button class="button primary" id="scoreBtn">Score word</button><button class="button ghost" id="newBtn">New tray</button></div>
+    <p class="game-message" id="msg">Make a word with 3+ letters.</p>
+    <div class="score-list" id="history"></div>
+  </section>
+</main>
+<script src="./word-sprout.js?v=1"></script>
+</body>
+</html>

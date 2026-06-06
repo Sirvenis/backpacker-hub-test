@@ -1,0 +1,19 @@
+{
+  "name": "Backpacker Hub",
+  "short_name": "Backpacker Hub",
+  "description": "Backpacker-first WageCheck, useful tools, games, and stories with free access or AUD $3.99 for 6 months.",
+  "start_url": "./index.html?v=10",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#07111f",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

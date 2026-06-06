@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Pocket Snake — Toolbox Games</title>
+  <link rel="stylesheet" href="../styles.css?v=1">
+  <link rel="stylesheet" href="./games.css?v=1">
+</head>
+<body>
+<header class="site-header"><nav class="nav"><a class="brand" href="./index.html"><span class="brand-mark">S</span><span><strong>Pocket Snake</strong><small>Tiny arcade toy</small></span></a><div class="nav-links"><a href="./index.html">Games</a><a href="../index.html">Toolbox</a></div></nav></header>
+<main class="game-wrap">
+  <section class="game-panel">
+    <div class="game-top">
+      <div><p class="eyebrow">ARCADE</p><h1>Pocket Snake</h1><p>Eat green snacks, avoid the wall and yourself. Arrow keys or buttons work.</p></div>
+      <div class="game-stats"><span class="stat-pill">Score <span id="score">0</span></span><span class="stat-pill">Best <span id="best">0</span></span></div>
+    </div>
+    <div class="game-actions"><button class="button primary" id="startBtn">Start / restart</button><button class="button ghost" id="pauseBtn">Pause</button></div>
+    <p class="game-message" id="msg">Press start.</p>
+    <div class="snake-canvas-wrap"><canvas id="snakeCanvas" width="420" height="420"></canvas></div>
+    <div class="dpad" aria-label="direction controls"><button class="button ghost" data-dir="up">↑</button><button class="button ghost" data-dir="left">←</button><button class="button ghost" data-dir="right">→</button><button class="button ghost" data-dir="down">↓</button></div>
+  </section>
+</main>
+<script src="./pocket-snake.js?v=1"></script>
+</body>
+</html>
